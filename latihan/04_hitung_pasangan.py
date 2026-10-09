@@ -1,0 +1,7 @@
+n = int(input("n: ")) #[cite: 10]
+count = 0 #[cite: 10]
+for i in range(1, n + 1): #[cite: 10]
+    for j in range(1, n + 1): #[cite: 10]
+        if i + j <= n: #[cite: 10]
+            count += 1 #[cite: 10]
+print(f"Banyak pasangan = {count}") #[cite: 10]

@@ -1,0 +1,5 @@
+n = int(input("n: ")) #[cite: 9]
+for i in range(1, n + 1): #[cite: 9]
+    for j in range(i): #[cite: 9]
+        print("*", end=" ") #[cite: 9]
+    print() #[cite: 9]

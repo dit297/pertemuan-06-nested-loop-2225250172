@@ -1,0 +1,6 @@
+count = 0 #[cite: 9]
+for i in range(1, 4): #[cite: 9]
+    for j in range(1, 5): #[cite: 9]
+        print(i, j) #[cite: 9]
+        count += 1 #[cite: 9]
+print(f"Banyak pasangan {count}") #[cite: 9]
